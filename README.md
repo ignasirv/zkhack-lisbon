@@ -69,9 +69,9 @@ https://hackmd.io/VPA-DbmoTfyu1EqfjMHdNA
 ### Want to move to the next step? Apply for a critical bug and earn up to 1M USD!!
 https://immunefi.com/bounty/polygonzkevm/
 
-Useful links: 
-Audit reports: 
-https://github.com/0xPolygonHermez/zkevm-rom/tree/main/audits 
-https://github.com/0xPolygonHermez/zkevm-contracts/tree/main/audits 
-Smart contracts: 
-https://github.com/0xPolygonHermez/zkevm-contracts 
+Useful links:  
+Audit reports:  
+https://github.com/0xPolygonHermez/zkevm-rom/tree/main/audits  
+https://github.com/0xPolygonHermez/zkevm-contracts/tree/main/audits  
+Smart contracts:  
+https://github.com/0xPolygonHermez/zkevm-contracts  
