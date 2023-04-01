@@ -42,6 +42,8 @@ In the case above, we are using two steps to store value of registry A to `bytes
 ```
 There are optimization as simple as this one, but there are other optimization far more complex that require more knowledge of the assembly language and of the EVM.
 
+If you find an optimization in a part of the code that is not an opcode or doesn't have a unit test, we encorage you to create the test :D
+
 A way to parameterize the consumption of the rom is using the counters. Each rom operation is consuming different counters:
 **Steps**: consumed for every execution line of the rom.
 **Binary**: consumed every time a binary operation is executed:
@@ -63,15 +65,29 @@ A way to parameterize the consumption of the rom is using the counters. Each rom
 **Mem align**: Consumed for every memory alignment operation
 **Poseidon**: Consumed for every HASHKDIGEST operation
 
-CheatSheet zkEVM operations:
-https://hackmd.io/VPA-DbmoTfyu1EqfjMHdNA
+### How to submit
+Make a PR to https://github.com/ignasirv/zkhack-lisbon showing the previous code + previous countesr consumption followed by the new code proposal + new counters consumption.  
+In case of a smart contract gas optimization, the same way but explaining the optimization with code examples.
 
-### Want to move to the next step? Apply for a critical bug and earn up to 1M USD!!
+**CheatSheet zkEVM operations:**
+https://hackmd.io/sNAUKkgtS622ABDsug3s5g
+
+### **Want to move to the next step? Apply for a critical bug and earn up to 1M USD!!**
 https://immunefi.com/bounty/polygonzkevm/
 
-Useful links:  
+**Useful links:**  
 Audit reports:  
 https://github.com/0xPolygonHermez/zkevm-rom/tree/main/audits  
 https://github.com/0xPolygonHermez/zkevm-contracts/tree/main/audits  
 Smart contracts:  
 https://github.com/0xPolygonHermez/zkevm-contracts  
+ProverJS:  
+https://github.com/0xPolygonHermez/zkevm-proverjs  
+PIL:  
+https://github.com/0xPolygonHermez/pilcom  
+zkasm compiler:  
+https://github.com/0xPolygonHermez/zkasmcom  
+EVM opcodes:  
+https://www.evm.codes/  
+
+**Happy coding!**
