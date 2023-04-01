@@ -1,6 +1,6 @@
 # zkHack Lisbon
 
-Bounty: pool of 5k Matic for best rom and smart contracts optimization proposals.
+Bounty: pool of 5k Matic for up to 10 best zk-rom and smart contracts optimization proposals.
 
 ### zk-ROM
 Setup:
@@ -30,6 +30,11 @@ checkCounters:
 ; %OPADD_CNT_MEM_ALIGN - CNT_MEM_ALIGN :JMPNZ(failedCounters)
 ; %OPADD_CNT_PADDING_PG - CNT_PADDING_PG :JMPNZ(failedCounters)
 ; %OPADD_CNT_POSEIDON_G - CNT_POSEIDON_G :JMPNZ(failedCounters)
+```
+Example of log:
+```
+${log(A)}
+${log(B)}
 ```
 Example of optimization:
 ```
