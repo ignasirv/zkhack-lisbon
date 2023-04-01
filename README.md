@@ -71,7 +71,7 @@ A way to parameterize the consumption of the rom is using the counters. Each rom
 **Poseidon**: Consumed for every HASHKDIGEST operation
 
 ### How to submit
-Make a PR to https://github.com/ignasirv/zkhack-lisbon showing the previous code + previous countesr consumption followed by the new code proposal + new counters consumption.  
+Make a PR to https://github.com/ignasirv/zkhack-lisbon showing the previous code + previous counters consumption followed by the new code proposal + new counters consumption.  
 In case of a smart contract gas optimization, the same way but explaining the optimization with code examples.
 
 **CheatSheet zkEVM operations:**
